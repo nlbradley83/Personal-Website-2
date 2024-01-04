@@ -1,0 +1,148 @@
+h1{
+    text-align: center;
+}
+
+.sitenav ul{
+    list-style-type: none;
+    background-color: #bbb;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.sitenav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.sitenav a:hover{
+    background-color: blue;
+}
+
+img {
+    height: 400px;
+    width: 325px;
+}
+
+img{
+    height: 470px;
+    width: 325px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+background-color: #000 }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+  background-color: #fafafa;
+  }
+
+  .project {
+    width: calc(100% - 6em);
+    background: #fafafa;
+    color: #000000;
+    box-shadow: 0 3px 6px -2px #ccc;
+    margin: 2em auto;
+    padding: 1em;
+  }
+  
+  .project:nth-of-type(2n) img {
+    width: 240px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    float: left;
+    box-shadow: 0 3px 6px -2px #ccc;
+  }
+  
+  .project:nth-of-type(2n + 1) img {
+    width: 240px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    float: right;
+    box-shadow: 0 3px 6px -2px #ccc;
+  }
+  
+  .project h2 {
+    font-weight: 500;
+    font-size: 2em;
+    margin: 0 0 1em;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  #project-header {
+    font-weight: 100;
+    font-size: 2rem;
+    border-bottom: 200px solid #ccc;
+  }
+  
+  
+    
+  
+    .project-content img {
+      width: 100% !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    main > img {
+      /* height: 500px; */
+      width: 500px;
+      float: right;
+      margin: 0px 0 10px 10px;
+    }
+
+    main {
+      min-height: 200vh;
+      padding: 85px 2px 96px;
+      box-shadow: 0 0 12px -2px black;
+      background-color: #ccc; 
+      color: #000; 
+      font-family: 'Open Sans', sans-serif;
+      font-size: 25px;
+  }
+
+    section {
+      border-top: -10px solid #bbb;
+      font-size: 16px;
+    }
+    
+
+    .project-content img {
+      width: 300px;  
+      height: auto;  
+  }
+  
+  .content-section {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black; 
+}
+
+.content-section h2 {
+    color: #000;
+}
+
+.content-section ul {
+    margin-left: 20px;
+    list-style-type: disc;
+    color: #ccc; 
+}
+
